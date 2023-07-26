@@ -49,7 +49,7 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
+    imgUrl: '/cloud_first.png',
     title: 'Cloud First Approach',
     subtitle:
         'Our team of talented developers have mastered the skill of developing cloud ready application.',
