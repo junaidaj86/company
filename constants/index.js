@@ -70,7 +70,7 @@ export const insights = [
     imgUrl: '/saas.jpeg',
     title: 'SaaS',
     subtitle:
-        'MJF Techno Trio also offers our products via SaaS solution.',
+        'MJF Techno Trio offers many products via SaaS solution. Some of the offerings are Inventory managemnet system and Complete tailor solution',
   },
 ];
 
