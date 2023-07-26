@@ -36,13 +36,13 @@ export default function Hamburger() {
             </div>
             <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-gray-100 my-8 uppercase">
-                <a href="/about">About</a>
+                <a href="#">About</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/portfolio">Portfolio</a>
+                <a href="#">Portfolio</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/contact">Contact</a>
+                <a href="#">Contact</a>
               </li>
             </ul>
           </div>
@@ -50,13 +50,13 @@ export default function Hamburger() {
 
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex text-[12px] leading-[30.24px] text-white">
           <li>
-            <a href="/about">About</a>
+            <a href="#">About</a>
           </li>
           <li>
-            <a href="/portfolio">Portfolio</a>
+            <a href="#">Portfolio</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="#">Contact</a>
           </li>
         </ul>
       </nav>
