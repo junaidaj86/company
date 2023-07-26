@@ -13,11 +13,13 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
     } flex items-center justify-center min-w-[170px] h-[700px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
     onClick={() => handleClick(id)}
   >
-    <img
-      src={imgUrl}
-      alt="planet-04"
-      className="absolute w-full h-full object-cover rounded-[24px]"
-    />
+    <div className="w-full h-[300px] rounded-[24px] overflow-hidden">
+      <img
+        src={imgUrl}
+        alt="planet-04"
+        className="w-full h-full object-cover object-center"
+      />
+    </div>
     {active !== id ? (
       <h3 className="font-semibold sm:text-[26px] text-[18px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]">
         {title}
@@ -27,7 +29,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
         <div
           className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
         >
-          
+          {/* Content for the active state */}
         </div>
         <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
           Learn More

@@ -55,19 +55,19 @@ export const insights = [
         'Our team of talented developers have mastered the skill of developing cloud ready application.',
   },
   {
-    imgUrl: '/planet-07.png',
+    imgUrl: '/security.png',
     title: 'Security',
     subtitle:
         'With the founders extensive knowlegde about security, we develop application with all the security best practises.',
   },
   {
-    imgUrl: '/planet-08.png',
+    imgUrl: '/staffing.jpeg',
     title: 'Staffing Solutions',
     subtitle:
         'MJF Techno Trio have a talented recruitment team who are capable of finding the right talent for the right project.',
   },
   {
-    imgUrl: '/planet-08.png',
+    imgUrl: '/saas.jpeg',
     title: 'SaaS',
     subtitle:
         'MJF Techno Trio also offers our products via SaaS solution.',

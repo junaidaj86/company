@@ -9,7 +9,7 @@ import { staggerContainer } from '../utils/motion';
 import { ExploreCard, TitleText, TypingText } from '../components';
 
 const Explore = () => {
-  const [active, setActive] = useState('world-2');
+  const [active, setActive] = useState('world-1');
 
   return (
     <section className={`${styles.paddings}`} id="explore">
@@ -25,7 +25,7 @@ const Explore = () => {
           title={<>Our services<br className="md:block hidden" /></>}
           textStyles="text-center"
         />
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+        <div className=" flex lg:flex-row flex-col min-h-[60vh] gap-5">
           {exploreWorlds.map((world, index) => (
             <ExploreCard
               key={world.id}
