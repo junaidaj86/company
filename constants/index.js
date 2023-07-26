@@ -16,12 +16,12 @@ export const exploreWorlds = [
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
+    imgUrl: '/saas.jpeg',
     title: 'SaaS',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
+    imgUrl: '/staffing.jpeg',
     title: 'Staffing',
   },
 ];
